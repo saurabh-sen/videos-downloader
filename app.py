@@ -22,4 +22,5 @@ def download():
         return redirect(download_link+ "?dl=1")
 
 # starting the server
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run()
